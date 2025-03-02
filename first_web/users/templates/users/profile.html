@@ -1,0 +1,13 @@
+{% extends 'main/layout.html' %}
+{% block title %}Профиль{% endblock %}
+{% block content %}
+    <div class="features">
+        <h1>Профиль</h1>
+    </div>
+    <div class="reg">
+        <ul>
+            <a href="{% url 'register' %}"><li><button class="btn btn-info">Регистрация</button></li></a><br>
+            <a href="{% url 'entry' %}"><li><button class="btn btn-info">Вход</button></li></a><br>
+        </ul>
+    </div>
+{% endblock %}
